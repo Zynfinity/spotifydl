@@ -1,16 +1,10 @@
-FROM nikolaik/python-nodejs:latest
+FROM node:lts-buster
 
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt-get install -y --no-install-recommends \
-  neofetch \
-  ffmpeg \
-  wget \
-  sudo \
-  tesseract-ocr \
-  chromium \
-  imagemagick
-RUN pip install pillow
+  ffmpeg
+
 RUN npm install -g npm@latest
 
 WORKDIR /home/frmdev/frmdev
