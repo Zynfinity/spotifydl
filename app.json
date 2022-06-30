@@ -1,0 +1,7 @@
+{
+  "name": "spotifydl",
+  "description": "downloader",
+  "repository": "https://github.com/Zynfinity/spotifydl",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"]
+}
