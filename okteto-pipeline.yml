@@ -1,0 +1,16 @@
+build:
+  api:
+    context: api
+  frontend:
+    context: frontend
+    dockerfile: Dockerfile
+    target: dev
+deploy:
+  compose: docker-compose.yaml
+  endpoints:
+    - path: /
+      service: frontend
+      port: 8080
+    - path: /api
+      service: api
+      port: 8080
