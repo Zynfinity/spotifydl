@@ -10,7 +10,7 @@
     "express": "^4.18.1",
     "file-type": "^16.5.3",
     "spotify-finder": "^2.1.1",
-    "spotifydl-core": "^0.2.0"
+    "spotifydl-core": "github:Zynfinity/spotifydl-core"
   },
   "devDependencies": {},
   "scripts": {
